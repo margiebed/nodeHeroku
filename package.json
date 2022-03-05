@@ -6,9 +6,9 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc",
-    "start": "node ./dist/src/app/server.js",
-    "dev": "set NODE_ENV=development && nodemon ./src/app/server.ts",
-    "dev-prod": "set NODE_ENV=production && nodemon ./src/app/server.ts",
+    "start": "node ./dist/src/server.js",
+    "dev": "set NODE_ENV=development && nodemon ./src/server.ts",
+    "dev-prod": "set NODE_ENV=production && nodemon ./src/server.ts",
     "dev:t": "ts-node ./src/app/server.ts",
     "test": "jest  --watchAll --detectOpenHandles --verbose",
     "test:c": "jest --watchAll --detectOpenHandles --verbose --coverage"
