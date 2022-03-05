@@ -1,1 +1,1 @@
-web: node app/server.ts
+web: node app:main
